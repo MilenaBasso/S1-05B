@@ -7,6 +7,6 @@ export default function LoginButton() {
   };
 
   return (
-      <Button onPress={pressButon} title="Click Here!!" color="brown" />
+      <Button onPress={pressButon} title="Click Here!!" color="pink" />
   );
 }
