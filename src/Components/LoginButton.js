@@ -3,7 +3,7 @@ import { styles } from "../styles/Estilos";
 
 export default function LoginButton() {
   pressButon = () => {
-    alert("abc");
+    alert("Heyyyy!!");
   };
 
   return (

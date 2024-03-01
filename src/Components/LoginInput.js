@@ -6,18 +6,18 @@ export default function LoginInput() {
     <View>
     {/* Caixa de nome do usuário */}
       <TextInput
-        style={styles.inputName}
+        style={styles.inputname}
         placeholder="User"
         inputMode="text"
-        placeholderTextColor="brown"
+        placeholderTextColor="purple"
       />
     {/*Caixa de senha do login*/}
       <TextInput
-        style={styles.inputName}
+        style={styles.inputname}
         placeholder="PassWord"
         inputMode="numeric"
         secureTextEntry={true}
-        placeholderTextColor="brown"
+        placeholderTextColor="purple"
       />
     </View>
   );

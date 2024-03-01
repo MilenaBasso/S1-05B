@@ -3,6 +3,7 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
+    justifyContent:'center',
   },
 
   img: {
@@ -10,20 +11,24 @@ export const styles = StyleSheet.create({
     height: "100%",
   },
 
-  inputName: {
-    backgroundColor: "white",
+  inputname: {
+    backgroundColor: "pink",
     borderColor: "black",
     borderWidth: 2,
+    width: 230,
+    marginLeft: 856,
+    fontSize: 20,
   },
 
-  LoginText: {
+  logintext: {
     color: 'pink',
-    fontSize: '45',
-    textAlign: 'center',
+    fontSize: '30',
+    marginLeft: 880,
   },
 
   image1: {
     width: 100,
     height: 100,
   },
+
 });

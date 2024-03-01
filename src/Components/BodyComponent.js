@@ -7,7 +7,6 @@ import LoginButton from "./LoginButton";
 export default function BodyComponent() {
   return (
     <View style={styles.container}>
-      <LoginText/>
       <LoginInput />
       <LoginButton />
     </View>

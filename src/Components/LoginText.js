@@ -3,6 +3,6 @@ import { styles } from '../styles/Estilos';
 
 export default function LoginText() {
     return (
-            <Text styles={styles.LoginText}>Welcome!!</Text>
+            <Text styles={styles.logintext}>Welcome!!</Text>
     );
 }
