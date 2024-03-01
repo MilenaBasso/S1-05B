@@ -1,5 +1,5 @@
 import { View, Button } from "react-native";
-import { styles } from "../styles/StyleSheet";
+import { styles } from "../styles/Estilos";
 
 export default function LoginButton() {
   pressButon = () => {
@@ -7,8 +7,6 @@ export default function LoginButton() {
   };
 
   return (
-    <View style={styles.container}>
       <Button onPress={pressButon} title="Click Here!!" color="brown" />
-    </View>
   );
 }

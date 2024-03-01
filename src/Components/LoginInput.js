@@ -1,17 +1,17 @@
 import { View, TextInput } from "react-native";
-import { styles } from "../styles/StyleSheet";
+import { styles } from "../styles/Estilos";
 
 export default function LoginInput() {
   return (
     <View>
-    /* Caixa de nome do usuário */
+    {/* Caixa de nome do usuário */}
       <TextInput
         style={styles.inputName}
         placeholder="User"
         inputMode="text"
         placeholderTextColor="brown"
       />
-    /*Caixa de senha do login*/
+    {/*Caixa de senha do login*/}
       <TextInput
         style={styles.inputName}
         placeholder="PassWord"

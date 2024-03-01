@@ -1,9 +1,8 @@
-import {View, Text} from 'react-native'
+import { Text } from 'react-native'
+import { styles } from '../styles/Estilos';
 
 export default function LoginText() {
     return (
-        <View style= {[styles.secondaryContainer]}>
             <Text styles={styles.LoginText}>Welcome!!</Text>
-        </View>
     );
 }

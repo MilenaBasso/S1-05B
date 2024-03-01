@@ -1,5 +1,6 @@
-import {View, Image, TouchableOpacity,} from 'react-native';
-import { styles } from '../styles/StyleSheet';
+import { Image, TouchableOpacity,} from 'react-native';
+import { styles } from '../styles/Estilos';
+
 gato = () => {
     alert("Meow")
  }
@@ -10,10 +11,8 @@ const image1 = {
 export default function LoginImage() {
 
     return(
-        <View style={[styles.secondaryContainer, {backgroundColor: 'pink', width:"100%", height: '80'}]}>
-            <TouchableOpacity onPress={gato}>
-            <Image source={image1} style={styles.image1}/>
-            </TouchableOpacity>
-        </View>
+        <TouchableOpacity style={{ padding: 15, width: 100, height: 100 }} onPress={gato}>
+            <Image source={require('../assets/images/gato.jpg')} style={styles.image1}/>
+        </TouchableOpacity>
     );
 }
