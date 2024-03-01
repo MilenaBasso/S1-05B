@@ -1,18 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import { styles } from './src/Style/StyleSheet';
-import Header from './src/assets/Components/Header';
-import Body from './src/assets/Components/Body';
-import Footer from './src/assets/Components/Footer';
-import { StyleSheet, View, TextInput, Button, Text, Image, ImageBackground } from 'react-native';
+import LoginImageBackground from "../Components/LoginImageBackground";
+
 
 export default function Login() {
     return (
-        <View style={ styles.container }> 
-            <Header/>
-            <Body/>
-            <Footer/>
-        </View>
-    
+
+        <LoginImageBackground/>
+
     );
 
 }

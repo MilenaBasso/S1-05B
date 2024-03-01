@@ -22,4 +22,16 @@ export const styles = StyleSheet.create({
     borderColor: "black",
     borderWidth: 2,
   },
+
+  LoginText: {
+    color: 'black',
+    fontSize: '35',
+    textAlign: 'center',
+  },
+
+  image1: {
+    width: 100,
+    height: 100,
+    alignItems: 'flex-end',
+  },
 });
